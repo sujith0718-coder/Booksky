@@ -1,0 +1,177 @@
+* {
+
+  padding: 0;
+  margin: 0;
+}
+
+.roboto-slab,
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: deeppink;
+  color: white;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.bkc {
+  background-color: rgb(94, 10, 56);
+  color: white;
+  width: 25%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+
+
+
+.del {
+  background-color: deeppink;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.del:hover,
+.abtn:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.c {
+  padding: 10px;
+  background-color: rgb(251, 188, 223);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.bkc:hover {
+  border: 3px solid deeppink;
+  transition: 0.2s;
+}
+
+.abtn {
+  background-color: deeppink;
+  color: white;
+  padding: 10px;
+  border-radius: 100%;
+  border-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+
+}
+
+.pl {
+  background-color: black;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+
+}
+
+.pm {
+  background-color: deeppink;
+  width: 30%;
+  min-height: 240x;
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  z-index: 2;
+  color: white;
+  padding: 20px;
+  display: none;
+}
+
+#bt,
+#an {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+
+
+}
+
+#des {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid black;
+
+
+}
+
+#bt::placeholder,
+#an::placeholder,
+#des::placeholder {
+  color: black
+}
+
+#ad {
+  background-color: rgb(237, 44, 96);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  width: 15%;
+  margin-left: 8px;
+}
+
+#ca {
+  background-color: rgb(51, 175, 228);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  width: 15%;
+  margin-left: 30px;
+}
+
+#ad:hover,
+#ca:hover {
+  border: 3px solid rgb(4, 1, 3);
+
+  transition: 0.2s;
+  transform: scale(1.1);
+}
